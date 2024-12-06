@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle">
+        <remap from="turtle1" to="alpha"/>
+        
+    </node>
+
+</launch>
